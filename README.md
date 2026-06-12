@@ -25,6 +25,14 @@ Three models were trained and compared:
 
 **Winner: SMOTE + Threshold 0.3.** Lowest false negatives (12 fraudulent transactions missed), best recall for fraud detection where missing real fraud carries the highest financial and reputational cost. The class weight balanced model achieves the highest precision but its low recall makes it the wrong choice for this use case.
 
+### Confusion Matrix — Baseline SMOTE Model
+
+![Confusion Matrix](images/confusion-matrix.png)
+
+### Precision-Recall Curve with Threshold 0.3 Marker
+
+![Precision-Recall Curve](images/precision-recall-curve.png)
+
 See the full notebook conclusion for problem context, approach, trade-offs, and next steps.
 
 ## Concepts Demonstrated
